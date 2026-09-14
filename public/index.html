@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Meaningful Discovery</title><link rel="stylesheet" href="/styles.css" /></head>
+  <body>
+    <main>
+      <p class="eyebrow">Meaningful Discovery</p>
+      <h1>Find work that speaks to what you are thinking about.</h1>
+      <p class="intro">Describe the questions, ideas, and kinds of writing you want to spend time with. We will surface works for their fit—not their popularity.</p>
+      <form id="profile-form">
+        <label>What are you curious about?<input id="interests" placeholder="e.g. belonging, climate, consciousness" required /></label>
+        <label>What kind of writing do you enjoy?<input id="styles" placeholder="e.g. lyrical, analytical, narrative" /></label>
+        <label>Preferred format<input id="formats" placeholder="e.g. book, essay, philosophy" /></label>
+        <label>Tell us a little more<textarea id="prompt" placeholder="I want to read something that..." rows="4"></textarea></label>
+        <button type="submit">Discover works</button>
+      </form>
+      <section id="results" aria-live="polite"></section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
